@@ -1,0 +1,18 @@
+//hm direct value change n krty react m blky variable k through krty ha ..
+
+// form m data direct submit hujata h uski nature ha jse submit huta h page reload hujata ha..
+islie phle input s data reload huk gaeb hurha ha..
+
+//is s bchne k lie ak trick ha wo ye ha..
+( submitHandler ka ak function bnaegy or use form m onSubmit m call krlegy..
+or us submitHandler k function m hm argument pass kraegy (e)=>{
+    or isk andr hm ye lkhygy 
+    e.preventDefault()
+
+    //or ye hmre form ko submit hune se rokyga..
+} to)
+
+
+
+//splice array s nkal deta h data delete n krta use ap store b krwaskty han.
+//<button onClick={()=>{deleteHandler(i)}} ese hmesha arrow fn m chlaegy wrna direct reload hujaega auto delete krdega.
